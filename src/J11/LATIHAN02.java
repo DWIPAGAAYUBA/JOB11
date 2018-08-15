@@ -50,4 +50,9 @@ public class LATIHAN02 {
          tampilPerKata(kalimat,convert);
          
     }    
+      private static void tampilHasil(String convert){
+           System.out.println("Kalimat Alay Angka : " + convert);
+           tampilHasil(convert);
+    }
+    
 }
